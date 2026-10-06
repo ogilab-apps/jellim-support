@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jellim サポート</title>
+  <style>
+    :root {
+      --bg: #ffffff;
+      --card: #f8f8f6;
+      --border: #ececea;
+      --text: #1d1d1f;
+      --muted: #737373;
+      --accent: #e8336b;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #101012;
+        --card: #1b1b1e;
+        --border: #2a2a2e;
+        --text: #f4f4f6;
+        --muted: #a9a9b0;
+        --accent: #ff6f9f;
+      }
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic UI", sans-serif;
+      line-height: 1.9;
+    }
+    main { max-width: 720px; margin: 0 auto; padding: 48px 24px 80px; }
+    .brand { font-weight: 700; font-size: 24px; letter-spacing: 0.02em; }
+    .brand a { color: var(--text); text-decoration: none; }
+    .brand .im { color: var(--accent); }
+    .tagline { color: var(--muted); margin-top: 4px; }
+    .lang { font-size: 13px; margin-top: 8px; }
+    h1 { font-size: 28px; margin: 32px 0 8px; letter-spacing: 0.02em; }
+    .date { color: var(--muted); font-size: 14px; margin-bottom: 32px; }
+    h2 { font-size: 19px; margin: 40px 0 12px; padding-left: 12px; border-left: 4px solid var(--accent); }
+    p, li { font-size: 15.5px; }
+    ul { padding-left: 24px; margin: 8px 0; }
+    .card, .note {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 16px 20px;
+      margin: 16px 0;
+    }
+    .note { margin: 24px 0; font-size: 15px; }
+    p + p { margin-top: 12px; }
+    a { color: var(--accent); }
+    footer { margin-top: 56px; color: var(--muted); font-size: 13px; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="brand">Jell<span class="im">im</span></div>
+    <p class="tagline">限界になる前に、気づく。</p>
+
+    <h2>アプリについて</h2>
+    <p>
+      Jellim(ジェリム)は、ストレスを「ゼリー」として透明なコップに溜めていくアプリです。
+      ゼリーの色はストレスの種類、大きさは重さ。たまり具合がひと目でわかるので、限界になる前に気づけます。
+      楽になったら「ほぐす」でゼリーを溶かします。記録はすべて端末内に保存され、オフラインでご利用いただけます。
+    </p>
+    <p>本アプリは、ストレスを目に見える形で記録するためのものです。医療機器ではなく、病気の診断・治療・予防を目的としたものではありません。つらい状態が続くときは、医療機関や専門の窓口にご相談ください。</p>
+
+    <h2>使い方</h2>
+    <ul>
+      <li>もやもやしたら「＋」から、ストレスの種類と大きさを選んでゼリーを入れる</li>
+      <li>楽になったら「ほぐす」から、ほぐれたストレスと量を選ぶ</li>
+      <li>% をタップすると、週・月・年のたまり具合と、効いたことが見られる</li>
+      <li>右上の共有ボタンから、いまのコップを画像にして送れる</li>
+    </ul>
+    <p>アプリの左上の「？」から、いつでも使い方ガイドを開けます。</p>
+
+    <h2>よくあるご質問</h2>
+    <div class="card">
+      <p><strong>記録は外部に送信されますか。</strong><br />
+      送信されません。入れたゼリー・ほぐした記録・設定は、すべて端末内にのみ保存されます。</p>
+      <p><strong>共有の画像には何が入りますか。</strong><br />
+      いまのコップ、たまり具合(%)、色の内訳と、選んだ場合はストレスの種類の名前だけです。画像は端末内で作られ、送る相手はご自身で選びます。共有の画面で「ストレスの種類も入れる」をオフにすると、種類の名前は入りません。</p>
+      <p><strong>Plus をやめると記録は消えますか。</strong><br />
+      消えません。記録はすべて残ります。きろくで見られる範囲が無料の範囲(今週と、はじめの月)になり、コップはタンブラーに、見た目はライトに戻ります。Plus に戻れば、もとどおりになります。</p>
+      <p><strong>機種変更でデータは引き継げますか。</strong><br />
+      端末のバックアップ(iCloudまたはパソコン)から新しい端末へ復元すれば、記録も引き継がれます。アプリ単体での引き継ぎ機能や、クラウドへの保存はありません。</p>
+      <p><strong>アプリを削除するとどうなりますか。</strong><br />
+      記録は端末内にのみ保存されているため、アプリを削除するとすべて消えます。削除の前に端末のバックアップをお取りください。容量を空けたいだけの場合は、「設定」→「一般」→「iPhoneストレージ」→「Jellim」→「Appを取り除く」を選ぶと、記録を残したままアプリだけを削除できます。</p>
+      <p><strong>購入した Plus を別の端末や家族と使えますか。</strong><br />
+      同じApple IDの端末では、Plus の画面の「購入を復元」からご利用いただけます。ファミリー共有にも対応しています。</p>
+    </div>
+
+    <h2>お問い合わせ</h2>
+    <div class="card">
+      <p>ご意見・ご要望・不具合のご報告は、メールでお気軽にご連絡ください。</p>
+      <p>メール: <a href="mailto:ogilab.apps@gmail.com">ogilab.apps@gmail.com</a></p>
+    </div>
+
+    <h2>プライバシーポリシー・利用規約</h2>
+    <p><a href="./privacy.html">プライバシーポリシー</a> / <a href="./terms.html">利用規約</a></p>
+
+    <h2 lang="en">English</h2>
+    <p lang="en">
+      Jellim lets you collect your stress as jellies in a clear cup. The color is the kind of stress and the size is how heavy it feels,
+      so you can see at a glance how full your cup is and notice before it overflows. When you feel better, ease your stress and the jellies melt away.
+      All of your records stay on your device and the app works offline.
+      Jellim is not a medical device and is not intended to diagnose, treat, or prevent any condition. If you keep feeling unwell, please talk to a doctor or a support service.
+      For support, feedback, or bug reports, email <a href="mailto:ogilab.apps@gmail.com">ogilab.apps@gmail.com</a>.<br />
+      <a href="./privacy-en.html">Privacy Policy</a> / <a href="./terms-en.html">Terms of Use</a>
+    </p>
+    <div class="card" lang="en">
+      <p><strong>Are my records sent anywhere?</strong><br />
+      No. The jellies you add, the times you eased, and your settings are stored only on your device.</p>
+      <p><strong>What goes into a shared picture?</strong><br />
+      Only your cup as it is now, how full it is (%), the color breakdown and, if you choose, the names of the kinds of stress. The picture is made on your device and you choose who to send it to. Turn off “Include the kinds of stress” to leave the names out.</p>
+      <p><strong>Will I lose my records if I stop Plus?</strong><br />
+      No. All of your records stay. Records go back to the free range (this week and your first month), the cup goes back to the tumbler, and the look goes back to light. Everything returns when you rejoin Plus.</p>
+      <p><strong>Can I move my data to a new iPhone?</strong><br />
+      Yes. Restore your new iPhone from a backup (iCloud or computer) and your records come with it. The app has no separate transfer feature and no cloud storage.</p>
+      <p><strong>What happens if I delete the app?</strong><br />
+      Your records are stored only on your device, so deleting the app erases them. Back up your iPhone first. To free up space without losing records, go to Settings &gt; General &gt; iPhone Storage &gt; Jellim &gt; Offload App.</p>
+      <p><strong>Can I use Plus on another device or with my family?</strong><br />
+      Yes. On a device with the same Apple Account, tap Restore Purchases on the Plus screen. Family Sharing is supported.</p>
+    </div>
+
+    <footer>© 2026 Jellim</footer>
+  </main>
+</body>
+</html>
